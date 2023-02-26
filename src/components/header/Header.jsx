@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 import Search from "../../icons/Search";
 import User from "../../icons/User";
 import Home from "../../icons/Home";
@@ -10,13 +12,28 @@ const Header = () => {
             <nav>
                 <ul>
                     <li>
-                        <Search />
+                        <NavLink
+                            className={(e) => (e.isActive ? "active" : "")}
+                            to="/app/search"
+                        >
+                            <Search />
+                        </NavLink>
                     </li>
                     <li>
-                        <User />
+                        <NavLink
+                            className={(e) => (e.isActive ? "active" : "")}
+                            to="/app/user"
+                        >
+                            <User />
+                        </NavLink>
                     </li>
                     <li>
-                        <Home />
+                        <NavLink
+                            className={(e) => (e.isActive ? "active" : "")}
+                            to="/app"
+                        >
+                            <Home />
+                        </NavLink>
                     </li>
                 </ul>
             </nav>
