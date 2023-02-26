@@ -2,8 +2,7 @@
 /* font-family: 'Averia Serif Libre', cursive; */
 :root {
     --color-prime: #fd4f00;
-    --shadow-small: 0rem 0.1rem 0.25rem #00000044;
-    --shadow-large: 0rem 0.5rem 1rem #00000044;
+    --shadow-small: 0rem 0.1rem 0.25rem #00000024;
 }
 
 * {
@@ -14,6 +13,11 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+html,
+body,
+#root {
+    height: 100%;
+}
 body {
     font-family: "Averia Serif Libre", sans-serif;
     margin: 0;
