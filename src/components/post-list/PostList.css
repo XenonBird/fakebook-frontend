@@ -1,44 +1,44 @@
 .PostInputBox {
-    padding: 0.75rem;
-    margin-bottom: 0.5rem;
-    box-shadow: var(--shadow-small);
-    border-radius: 0.75rem;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  box-shadow: var(--shadow-small);
+  border-radius: 0.75rem;
 }
 .PostInputBox > textarea {
-    padding: 0.5rem;
-    width: 100%;
-    border: none;
-    outline: none;
-    box-shadow: inset var(--shadow-small);
-    border-radius: 0.75rem;
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  box-shadow: inset var(--shadow-small);
+  border-radius: 0.75rem;
 }
 
 .PostInputBox .button-container {
-    margin-top: 0.5rem;
-    display: flex;
-    justify-content: space-between;
-    gap: 0.75rem;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
 }
 .PostInputBox .button-container > p {
-    width: 50%;
-    padding: 0.5rem;
-    box-shadow: var(--shadow-small);
-    border-radius: 0.5rem;
-    text-align: center;
-    cursor: pointer;
-    transition: 0.5s;
+  width: 50%;
+  padding: 0.5rem;
+  box-shadow: var(--shadow-small);
+  border-radius: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
 }
 .PostInputBox .button-container > p:hover {
-    background-color: var(--color-prime);
+  background-color: var(--color-prime);
 }
 .PostInputBox .button-container > p:hover .feather {
-    stroke: #fff;
+  stroke: #fff;
 }
 .PostInputBox .button-container > p:last-child {
-    background-color: var(--color-prime);
+  background-color: var(--color-prime);
 }
 .PostInputBox .button-container > p:last-child .feather {
-    stroke: #fff;
+  stroke: #fff;
 }
 
 /* =========================================== */
@@ -46,115 +46,115 @@
 /* =========================================== */
 
 .PostItem {
-    margin-bottom: 1rem;
-    box-shadow: var(--shadow-small);
-    border-radius: 0.75rem;
-    padding: 0.5rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--shadow-small);
+  border-radius: 0.75rem;
+  padding: 0.5rem;
 }
 .PostItem > .post-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
 }
 
 /* post header */
 
 .PostItem > .post-header > * {
-    cursor: pointer;
+  cursor: pointer;
 }
 .PostItem > .post-header > h3 {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 .PostItem > .post-header > .dp-wrapper {
-    width: 2.5rem;
-    height: 2.5rem;
-    overflow: hidden;
-    border-radius: 0.5rem;
-    overflow: hidden;
+  width: 2.5rem;
+  height: 2.5rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 .PostItem > .post-header > .button-more {
-    width: 2.25rem;
-    height: 2.25rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    transition: 0.5s;
-    border: 1px solid #ddd;
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #ddd;
 }
 .PostItem > .post-header > .button-more:hover {
-    background-color: var(--color-prime);
-    border: 1px solid var(--color-prime);
+  background-color: var(--color-prime);
+  border: 1px solid var(--color-prime);
 }
 .PostItem > .post-header > .button-more:hover svg {
-    stroke: #fff;
+  stroke: #fff;
 }
 
 .PostItem > .post-header > .dp-wrapper > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Main post */
 
 .PostItem > .image-wrapper {
-    margin: 0.5rem 0;
-    box-shadow: inset var(--shadow-small);
-    border-radius: 0.5rem;
-    aspect-ratio: 1;
-    overflow: hidden;
-    cursor: pointer;
+  margin: 0.5rem 0;
+  box-shadow: inset var(--shadow-small);
+  border-radius: 0.5rem;
+  aspect-ratio: 1;
+  overflow: hidden;
+  cursor: pointer;
 }
 .PostItem > .image-wrapper > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Action section */
 
 .PostItem > .action-section > .post-data {
-    margin: 0 0.5rem;
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.75rem;
-    margin-bottom: 0.5rem;
+  margin: 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .PostItem > .action-section > .button-container {
-    /* margin: 0 0.5rem; */
-    display: flex;
-    justify-content: space-between;
-    gap: 0.5rem;
-    font-size: 0.75rem;
+  /* margin: 0 0.5rem; */
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-size: 0.75rem;
 }
 
 .PostItem > .action-section > .button-container > p {
-    padding: 0.25rem;
-    width: 33%;
-    text-align: center;
-    box-shadow: var(--shadow-small);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    transition: 0.5s;
+  padding: 0.25rem;
+  width: 33%;
+  text-align: center;
+  box-shadow: var(--shadow-small);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 /* action button transitions */
 .PostItem > .action-section > p:hover {
-    background-color: var(--color-prime);
-    box-shadow: 0 0 0 transparent;
+  background-color: var(--color-prime);
+  box-shadow: 0 0 0 transparent;
 }
 
 .PostItem .action-section .action-button > .feather {
-    fill: #fff;
-    transition: 0.5s;
+  fill: #fff;
+  transition: 0.5s;
 }
 .PostItem .action-section .action-button:hover {
-    box-shadow: 0 0 0 transparent;
-    background-color: var(--color-prime);
+  box-shadow: 0 0 0 transparent;
+  background-color: var(--color-prime);
 }

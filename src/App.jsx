@@ -9,9 +9,9 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route exact path="/" element={<Overview />} />
+          <Route path="/" element={<Overview />} />
           <Route
-            path="/app"
+            path="/app/*"
             element={
               <>
                 <Header />
