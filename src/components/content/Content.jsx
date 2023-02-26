@@ -1,5 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import PostList from "../post-list/PostList";
+import Profile from "../profile/Profile";
+import Search from "../search/Search";
 import "./Content.css";
 
 const Content = () => {
@@ -7,8 +9,8 @@ const Content = () => {
     <div className="Content">
       <Routes>
         <Route path="/" element={<PostList />} />
-        <Route path="/search" element={<h1>Search</h1>} />
-        <Route path="/user" element={<h1>Profile</h1>} />
+        <Route path="/search" element={<Search />} />
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </div>
   );

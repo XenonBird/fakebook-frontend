@@ -2,7 +2,7 @@
 /* font-family: 'Averia Serif Libre', cursive; */
 :root {
   --color-prime: #fd4f00;
-  --shadow-small: 0rem 0.1rem 0.25rem #00000024;
+  --shadow-small: 0rem 0.1rem 0.25rem #00000040;
 }
 
 * {
