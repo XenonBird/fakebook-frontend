@@ -26,6 +26,7 @@
     border-radius: 0.5rem;
     text-align: center;
     cursor: pointer;
+    transition: 0.5s;
 }
 .PostInputBox .button-container > p:hover {
     background-color: var(--color-prime);
@@ -43,10 +44,6 @@
 /* =========================================== */
 /*              Post list and items            */
 /* =========================================== */
-
-.PostList {
-    padding-top: 0.5rem;
-}
 
 .PostItem {
     margin-bottom: 1rem;
