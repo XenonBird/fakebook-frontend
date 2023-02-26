@@ -22,7 +22,7 @@ const Header = () => {
           <li>
             <NavLink
               className={(e) => (e.isActive ? "active" : "")}
-              to="/app/user"
+              to="/app/profile"
             >
               <User />
             </NavLink>

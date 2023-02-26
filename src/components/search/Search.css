@@ -1,0 +1,38 @@
+.Search {
+}
+
+.Search .chip-container {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.Search .chip-container > .chips {
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 0;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: var(--shadow-small);
+  transition: 0.5s;
+}
+.Search .chip-container > .chips:hover,
+.Search .chip-container > .chips.active {
+  background-color: var(--color-prime);
+  color: #fff;
+}
+
+.Search .chip-container > .chips input {
+  display: none;
+}
+
+/* ==================== */
+
+.Search #searchText {
+  margin-bottom: 0.5rem;
+  padding: 0.75rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  box-shadow: var(--shadow-small);
+}
