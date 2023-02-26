@@ -1,0 +1,41 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Header > h1 {
+    padding: 0.5rem 0.75rem;
+    color: var(--color-prime);
+    text-shadow: var(--shadow-small);
+    cursor: pointer;
+}
+.Header > nav {
+    margin-right: 0.75rem;
+}
+.Header > nav > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 0.5rem;
+}
+.Header li {
+    /* background-color: aquamarine; */
+    width: 2.25rem;
+    height: 2.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* border: 1px solid #00000088; */
+    box-shadow: var(--shadow-small);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.Header li > svg {
+    fill: #fff;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.Header li:hover {
+    background-color: var(--color-prime);
+}
