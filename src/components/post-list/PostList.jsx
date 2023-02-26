@@ -32,7 +32,7 @@ const PostItem = () => {
         <div className="PostItem">
             <div className="post-header">
                 <div className="dp-wrapper">
-                    <img src="/images/dp2.jpg" alt="random" srcset="" />
+                    <img src="/images/dp2.jpg" alt="random" srcSet="" />
                 </div>
                 <h3>Title of the post</h3>
                 <p className="button-more">
@@ -40,7 +40,7 @@ const PostItem = () => {
                 </p>
             </div>
             <div className="image-wrapper">
-                <img src="/images/nature.jpg" alt="random" srcset="" />
+                <img src="/images/nature.jpg" alt="random" srcSet="" />
             </div>
             <div className="action-section">
                 <div className="post-data">
